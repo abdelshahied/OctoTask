@@ -1,25 +1,25 @@
 Here is the guide to use the api
-Just append the path in between '--' to  (http://127.0.0.1:8000/api)
-for example if you need to get all the users type (http://127.0.0.1:8000/api/get-all-users/)
-and if you want to search a certain user(id=1) type (http://127.0.0.1:8000/api/get-user/1)
+
+if you want to search a certain user(id=1) type (http://127.0.0.1:8000/api/get-user/1)
+and so on for the rest of the search by user urls
 
 
-        Create Account-->            '/create-account/'
-        Create Loan-->               '/create-loan/'
-        Create Loan Installment-->   '/create-loan-ins/'
+        Create Account-->            'http://127.0.0.1:8000/api/create-account/'
+        Create Loan-->               'http://127.0.0.1:8000/api/create-loan/'
+        Create Loan Installment-->   'http://127.0.0.1:8000/api/create-loan-ins/'
 
 
-        Get All Users -->              '/get-all-users/'
-        Get All Accounts -->           '/get-all-accounts/'
-        Get All Loans -->              '/get-all-loans/'
-        Get All Loans Installments-->  '/get-all-loan-ins/'
+        Get All Users -->              'http://127.0.0.1:8000/api/get-all-users/'
+        Get All Accounts -->           'http://127.0.0.1:8000/api/get-all-accounts/'
+        Get All Loans -->              'http://127.0.0.1:8000/api/get-all-loans/'
+        Get All Loans Installments-->  'http://127.0.0.1:8000/api/get-all-loan-ins/'
 
-        Get OR Update Certain User [search by user id] -->               '/get-user/userid/'
-        Get OR Update Certain Account [search by user id]-->             '/get-account/userid/'
-        Get OR Update Certain Loan [search by user id]-->                '/get-loan/userid/'
-        Get OR Update Certain Loan Installment [search by Loan id]-->    '/get-loan-ins/LoanId/'
+        Get OR Update Certain User [search by user id] -->               'http://127.0.0.1:8000/api/get-user/userid/'
+        Get OR Update Certain Account [search by user id]-->             'http://127.0.0.1:8000/api/get-account/userid/'
+        Get OR Update Certain Loan [search by user id]-->                'http://127.0.0.1:8000/api/get-loan/userid/'
+        Get OR Update Certain Loan Installment [search by Loan id]-->    'http://127.0.0.1:8000/api/get-loan-ins/LoanId/'
 
-        Delete Account [search by userid]-->  'delete-account/userid'
+        Delete Account [search by userid]-->  'http://127.0.0.1:8000/api/delete-account/userid'
 
 ----------------------------------------------------------------------------------------------------------------------
 Here is the code to run in 'manage.py shell' to insert sone samples in the database
